@@ -18,5 +18,5 @@ var m = map[string]Vertex{ //map的使用必须要有键值
 }
 
 func main(){
-	fmt.Println(m)
+	fmt.Println(m["zhou"])
 }

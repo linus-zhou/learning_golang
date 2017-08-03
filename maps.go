@@ -18,5 +18,5 @@ func main() {
 		40.23234, -63.124343,
 	}
 
-	fmt.Println(m[1])
+	fmt.Println(m[1].Long)
 }
