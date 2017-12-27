@@ -4,7 +4,7 @@ import "fmt"
 
 func two_oldest_age(ages []int) [2]int {
 		lenth := len(ages)
-
+		// 冒泡排序
 		for i := 0; i < lenth; i++ {
 			for j := 1; j < lenth - i; j++ {
 				if ages[j] < ages[j-1] {
